@@ -1,3 +1,3 @@
-export function HangmanWord(){
-	
+export function HangmanWord() {
+
 }
