@@ -11,12 +11,12 @@ export function HangmanWord() {
 			fontFamily: "monospace"
 		}}>
 			{word.split("").map((letter, index) => (
-				<span style={{ borderBottom: ".1em solid black" }} key={index}>
+				<span style={{ borderBottom: ".1em solid black" }} key={index }>
 					<span style={{
 						visibility: guessedLetters.includes(letter)
 							? "visible"
 							: "hidden"
-					}}>{letter}</span>
+					}}>{letter}</span>  
 				</span>
 			))}
 		</div>
